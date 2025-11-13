@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Join the Tech Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Join the Web Dev Club</h1>
+        <p>Assignment 2: HTML Forms</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="color-1">
+            <h2>Registration Form</h2>
+            <p>Fill out this form to join our student community.</p>
+
+            <form action="#" method="POST">
+                
+                <fieldset>
+                    <legend><strong>Personal Details</strong></legend>
+                    
+                    <label>Full Name:</label><br>
+                    <input type="text" name="fullname" placeholder="Jawaher Almussalami" required><br><br>
+
+                    <label>Email Address:</label><br>
+                    <input type="email" name="email" required><br><br>
+
+                    <label>Password:</label><br>
+                    <input type="password" name="pass" required><br><br>
+
+                    <label>Date of Birth:</label><br>
+                    <input type="date" name="dob">
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend><strong>Skills & Preferences</strong></legend>
+
+                    <p>Select your Year:</p>
+                    <select name="year">
+                        <option value="1">First Year</option>
+                        <option value="2">Second Year</option>
+                        <option value="3">Third Year</option>
+                        <option value="4">Senior</option>
+                    </select>
+
+                    <p>Current Level (Radio Button):</p>
+                    <input type="radio" name="level" value="beg" checked> Beginner<br>
+                    <input type="radio" name="level" value="int"> Intermediate<br>
+                    <input type="radio" name="level" value="adv"> Advanced<br>
+
+                    <p>Interests (Checkbox):</p>
+                    <input type="checkbox" name="interest" value="html"> HTML/CSS<br>
+                    <input type="checkbox" name="interest" value="js"> JavaScript<br>
+                    <input type="checkbox" name="interest" value="py"> Python<br>
+
+                    <p>Upload Profile Picture:</p>
+                    <input type="file" name="avatar">
+
+                </fieldset>
+
+                <br>
+                <input type="submit" value="Join Club" style="padding: 10px 20px; background-color: #2c3e50; color: white; border: none; cursor: pointer;">
+                <input type="reset" value="Clear" style="padding: 10px 20px;">
+
+            </form>
+            </section>
+
+        <div style="text-align: center;">
+            <a href="index.html">← Back to Home</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jawaher's Portfolio.</p>
+    </footer>
+
+</body>
+</html>
